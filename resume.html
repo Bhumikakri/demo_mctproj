@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,12 +8,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://rawgit.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js"></script>
 </head>
-
 <body>
     <div class="maincontainer">
         <div class="navbar">
             <h1>ResumeMaker</h1>
             <button class="download">Download</button>
+            <!-- <a href="path_to_file" download="purposed_file_name">Download</a> -->
         </div>
         <div class="basecontainer">
             <div class="container2">
@@ -29,6 +28,8 @@
                     <input type="color" id="headrcolor" class="coler">
                     <label for="">Header-Text Color</label>
                     <input type="color" id="hdtxtcolor" class="coler">
+                    <label for="">Background Color</label>
+                    <input type="color" id="backcolor" class="coler">
                     <label>Personal Details</label>
                     <!-- <input type="file" placeholder="image" class="imgee" id="imginput" accept="image/*">
                     <img  alt="uploadedimg" id="uploadimg"> -->
@@ -45,12 +46,19 @@
 
                     </div>
                     <button class="addProj">Add Project</button>
-                    <input type="text" placeholder="Educational Background" class="educate">
+                    <div class="Projects">
+
+                    </div>
+                    <label for="">Educational Background</label>
                     <button class="addeducate">Add Education</button>
+                    <div class="EducationDtls">
+
+                    </div>
                 <!-- </form> -->
                 </div>
             </div>
             <div class="outputcontainer">
+
                 <div class="outputTypOne">
                     <div class="header">
                         <h1 class="name"></h1>
@@ -63,19 +71,28 @@
                             </div>
                             <h3>Contact</h3>
                             <div class="contact">
-                                <p class="p1"></p>
-                                <p class="p2"></p>
-                                <p class="p3"></p>
+                                <h4><i class="fa-solid fa-phone"></i>  <span class="p1"></span></h4>
+                                <h4><i class="fa-regular fa-envelope"></i>  <span class="p2"></span></h4>
+                                <h4><i class="fa-solid fa-location-dot"></i>  <span class="p3"></span></h4>
                             </div>
                         </div>
                     </div>
                     <div class="outputright">
                         <h3>SUMMARY</h3>
-                        <p class="sumry"></p>
+                        <ul class="sumry">
+                        </ul>
                         <h3>PROFESSIONAL EXPERIENCE </h3>
-                        <p></p>
+                        <div class="experiance">
+                            
+                        </div>
                         <h3>PROJECT</h3>
+                        <div class="ProjectsDetails">
+                            
+                        </div>
                         <h3>EDUCATION</h3>
+                        <div class="Qualifications">
+                            
+                        </div>
                     </div>
                 </div>
                 <div class="outputTypTwo">
@@ -91,10 +108,17 @@
                         </div>
                     </div>
                     <div class="bottomsec">
+                        <h3>SKILLS</h3>
+                        <div class="skille">
+
+                        </div>
                         <h3>SUMMARY</h3>
-                        <p class="sumry"></p>
+                        <ul class="summry">
+                        </ul>
                         <h3>PROFESSIONAL EXPERIENCE </h3>
-                        <p></p>
+                        <div class="experiancc">
+                            
+                        </div>
                         <h3>PROJECT</h3>
                         <h3>EDUCATION</h3>
                     </div>
